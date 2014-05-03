@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+}
+p {
+
+	margin: 0px;
+	width: 229px;
+	min-height: 171px;
+	text-align: justify;
+	background-color: #D0D0D0;
+	padding: 13px;
+}
+h3 {
+	background-color: #D0D0D0;
+	color: gray;
+	padding: 0px;
+	margin: 0px;
+	text-align: center
+}
+.wrapper {
+
+	width: 930px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top_bar {
+	vertical-align: top;
+	width: 930px;
+}
+#logo {
+	width: 50%;
+	display: inline;
+}
+nav {
+	width: 54%;
+	height: 60px;
+	float: right;
+}
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.active {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	top: -27px;
+	display: inline-table;
+}
+/*show correctly in Opera*/
+x:-o-prefocus, nav ul {
+	top: -28px;
+}
+
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+nav ul li {
+	float: left;
+	width: 100px;
+	padding-bottom: 5px;
+	padding-top: 40px;
+}
+nav ul li:hover {
+	background: #df8901;
+}
+nav ul li:hover a {
+	color: #fff;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	color: #707070;
+	font-size: larger;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+nav ul ul {
+	background: #fea210;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #ffffff;
+	bottom:0;
+	position: relative;
+	padding-top: 5px;
+}
+nav ul ul li a {
+	color: #fff;
+}
+nav ul ul li a:hover {
+	background: #df8901;
+}
+/**
+ * #active & #active link can be used on other pages to highlight user's location on site
+ *
+ */
+#active {
+	background-color: #fea210;
+	border-right: 1px solid #ffffff;
+}
+#active_link {
+	color: #fff;
+}
+#truck_on_beach {
+	width: 930px;
+}
+#central_image_container {
+	position: relative;
+}
+
+#moto_background {
+	position: absolute;
+	width: 930px;
+	top: -70px;
+	left: 0px;
+	z-index: 1;
+}
+#moto {
+	position: absolute;
+	left: 33px;
+	z-index: 2;
+	top: -45px;
+}
+#col_container {
+	margin-top: 20px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.col {
+	background-color: #D0D0D0;
+	width: 255px;
+}
+#left_col {
+	float: left;
+}
+#mid_col {
+	margin-left: 275px;
+}
+#right_col {
+	float: right;
+}
+.small_image {
+	width: 255px;
+	height: 144px;
+}
+#rights {
+	color: #A8A8A8;
+	margin-top: 150px;
+}
+
